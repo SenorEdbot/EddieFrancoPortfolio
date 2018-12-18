@@ -43,7 +43,8 @@
       <v-btn flat dark
         v-if="$store.state.isUserLoggedIn"
         @click="logout">
-        Logout
+        Logout 
+        <v-icon>redo</v-icon>
       </v-btn>
 
     </v-toolbar-items>
