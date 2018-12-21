@@ -1,5 +1,5 @@
 <template>
-  <v-flex xs12 sm12 d-flex class="cardFlex">
+  <v-flex xs12 sm12 class="cardFlex">
     <!-- <div> -->
       <v-card class="my-2 mx-2 cards" v-for="card in cards" :key="card.title">
         <v-img
